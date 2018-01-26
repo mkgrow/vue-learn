@@ -4,3 +4,7 @@
   right: 12px;
 }
 
+.cell .mint-cell-wrapper {
+  background-image: none;
+}
+

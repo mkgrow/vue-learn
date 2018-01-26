@@ -5,7 +5,7 @@ import reqwest from 'reqwest'
 
 export const getSubscriptions = ({ commit }) => {
   reqwest({
-    url: `http://carhot.cn/api/subscriptions.json`,
+    url: `${process.env.API_ROOT}subscriptions.json`,
     method: 'get',
     contentType: 'application/json',
     crossOrigin: true,

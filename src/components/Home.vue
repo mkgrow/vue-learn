@@ -1,11 +1,12 @@
 <template>
-  <div>
+  <div class="home-page">
     <mt-header fixed :title="title" class="title">
       <mt-button icon="more" slot="right"></mt-button>
     </mt-header>
+    <div class="line"></div>
     <div class="cell" v-for="subscription in subscriptions.data">
       <mt-cell :title="subscription.name" :label="subscription.latestMsg">
-        <img slot="icon" src="../assets/img-default-avatar.svg" class="avator">
+        <img slot="icon" :src="getImgUrl(subscription.logo)" class="avator">
         <div>{{formatDate(subscription.latestMsgAt)}}</div>
       </mt-cell>
     </div>
@@ -27,6 +28,9 @@
       ]),
       formatDate(date) {
         return moment(date).format('YYYY-MM-DD')
+      },
+      getImgUrl(url) {
+        return require(`${process.env.BASE_URL}${url}`)
       }
     },
     computed: {
@@ -41,6 +45,14 @@
 </script>
 
 <style scoped>
+  .home-page {
+    margin-top: 12px;
+  }
+
+  .line {
+    border-top: .5px solid #e7e7e7;
+  }
+
   .title {
     height: 44px;
     font-size: 18px;
