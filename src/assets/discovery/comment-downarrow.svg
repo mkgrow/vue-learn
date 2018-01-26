@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="13px" height="8px" viewBox="0 0 13 8" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 39 (31667) - http://www.bohemiancoding.com/sketch -->
+    <title>箭头</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="发现" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="02-发现-车友圈" transform="translate(-181.000000, -1313.000000)" fill="#ACB1B7">
+            <g id="content" transform="translate(0.000000, 290.000000)">
+                <g id="示例3" transform="translate(16.000000, 558.000000)">
+                    <path d="M168.532737,475 C168.411493,475 168.289631,474.966849 168.189642,474.899001 C167.964487,474.746215 167.935727,474.475304 168.125343,474.293918 L173.771189,468.893552 L168.385888,463.704888 C168.197061,463.522953 168.227037,463.252145 168.452853,463.099994 C168.678669,462.947877 169.014792,462.972028 169.203618,463.153963 L174.87588,468.619103 C175.041831,468.779 175.041319,469.011796 174.874665,469.171213 L168.940664,474.847213 C168.835239,474.948058 168.684489,474.999983 168.532737,475 L168.532737,475 Z" id="箭头" transform="translate(171.500000, 469.000000) rotate(90.000000) translate(-171.500000, -469.000000) "></path>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

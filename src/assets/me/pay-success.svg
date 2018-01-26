@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="57px" height="57px" viewBox="0 0 57 57" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 43.1 (39012) - http://www.bohemiancoding.com/sketch -->
+    <title>pay-success</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="订单中心" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="15-钱包-充值成功0810" transform="translate(-159.000000, -140.000000)">
+            <g id="verify-result" transform="translate(36.000000, 140.000000)">
+                <g id="pay-success" transform="translate(123.000000, 0.000000)">
+                    <circle id="Oval" fill="#EFF8FF" cx="28.5" cy="28.5" r="28.5"></circle>
+                    <path d="M24.8615361,38.0424571 L41.8263369,21.0776563 C42.2134403,20.6905529 42.8411094,20.6906034 43.2343563,21.0838504 C43.6248806,21.4743747 43.6265648,22.1058555 43.2405504,22.4918699 L25.583663,40.1487573 C25.2305624,40.5018579 24.677302,40.5328319 24.284375,40.2370932 C24.2029526,40.1925316 24.1264727,40.1358209 24.0576291,40.0669772 L13.5981456,29.6074938 C13.2075658,29.216914 13.2047982,28.5864267 13.5980452,28.1931797 C13.9885694,27.8026554 14.62275,27.803671 15.0123592,28.1932802 L24.8615361,38.0424571 Z" id="Combined-Shape" fill="#5BAFFF"></path>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

@@ -1,0 +1,27 @@
+.mint-header {
+  line-height: normal;
+}
+
+.mint-button-icon {
+  height: 22px;
+  width: 14px;
+}
+
+.mint-button-text {
+  font-size: 14px;
+}
+
+.mint-cell-label,
+.mint-cell-text {
+  margin-left: 2px;
+}
+
+
+
+.mint-cell .mint-cell-title {
+  font-size: 16px;
+}
+
+.mint-cell .mint-cell-value {
+  font-size: 13px;
+}

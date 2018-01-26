@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="23px" height="26px" viewBox="0 0 23 26" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 39 (31667) - http://www.bohemiancoding.com/sketch -->
+    <title>carcircle-refresh</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="发现" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Artboard-2" transform="translate(-2.000000, -1.000000)">
+            <g id="carcircle-refresh" transform="translate(2.000000, 1.000000)">
+                <path d="M11.1996,-0.0001 L-0.0004,6.4999 L-0.0004,19.4999 L11.1996,25.9999 L22.4006,19.4999 L22.4006,6.4999 L11.1996,-0.0001 Z M8.1449,18.2917 L5.0899,12.9997 L8.1449,7.7087 L14.2549,7.7087 L17.3099,12.9997 L14.2549,18.2917 L8.1449,18.2917 Z" id="Combined-Shape" fill="#FFFFFF"></path>
+                <polygon id="Fill-2" fill="#F57656" points="0.7884 6.9893 13.8404 6.9893 10.5764 1.3373"></polygon>
+                <polygon id="Fill-3" fill="#5FF15B" points="11.8231 24.6625 21.6121 19.0115 8.5601 19.0115"></polygon>
+                <polygon id="Fill-4" fill="#F0DE58" points="1.4112 19.3706 11.1992 25.0226 4.6742 13.7196"></polygon>
+                <polygon id="Fill-5" fill="#6C59F0" points="17.7255 12.2804 20.9885 6.6294 11.1995 0.9774"></polygon>
+                <polygon id="Fill-6" fill="#5B9DF4" points="21.6116 18.2917 21.6116 6.9887 15.0856 18.2917"></polygon>
+                <polygon id="Fill-7" fill="#EFB35B" points="0.7884 7.7084 0.7884 19.0114 7.3144 7.7084"></polygon>
+            </g>
+        </g>
+    </g>
+</svg>

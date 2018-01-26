@@ -1,0 +1,13 @@
+.cell .mint-cell-text {
+  position: absolute;
+  top: 22px;
+  left: 75px;
+  margin-left: 4px;
+}
+
+.cell .mint-cell-label {
+  position: absolute;
+  left: 76px;
+  top: 42px;
+  font-size: 14px;
+}
