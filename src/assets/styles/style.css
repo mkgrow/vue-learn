@@ -1,5 +1,9 @@
 .mint-header {
   line-height: normal;
+  height: 44px;
+  font-size: 18px;
+  color: #fff;
+  background-color: #333;
 }
 
 .mint-button-icon {

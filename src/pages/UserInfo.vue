@@ -1,6 +1,6 @@
 <template>
   <div class="user-info">
-    <mt-header fixed :title="title" class="title">
+    <mt-header fixed :title="title">
       <router-link :to="{path: '/', meta: {tab: 'tab4'}}" slot="left">
         <mt-button icon="back">我</mt-button>
         <!--<mt-button @click="handleClose">我</mt-button>-->
@@ -42,13 +42,6 @@
 <style scoped>
   .user-info {
     margin-top: 44px;
-  }
-
-  .title {
-    height: 44px;
-    font-size: 18px;
-    color: #fff;
-    background-color: #333;
   }
 
   .head-img {

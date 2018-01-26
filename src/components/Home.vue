@@ -5,7 +5,7 @@
     </mt-header>
     <div class="line"></div>
     <div class="cell" v-for="subscription in subscriptions.data">
-      <mt-cell :title="subscription.name" :label="subscription.latestMsg">
+      <mt-cell :title="subscription.name" :label="subscription.latestMsg" :to="getLink(subscription.name)">
         <img slot="icon" :src="getImgUrl(subscription.logo)" class="avator">
         <div>{{formatDate(subscription.latestMsgAt)}}</div>
       </mt-cell>
@@ -31,6 +31,18 @@
       },
       getImgUrl(url) {
         return require(`${process.env.BASE_URL}${url}`)
+      },
+      getLink(name) {
+        switch (name) {
+          case '车商城':
+            return '';
+          case '试驾':
+            return '/trialCars';
+          case '车头条':
+            return '';
+          case '活动':
+            return '';
+        }
       }
     },
     computed: {
