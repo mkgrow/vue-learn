@@ -36,7 +36,7 @@
     },
     data() {
       return {
-        selected: this.$route.meta.tab? this.$route.meta.tab : 'tab1',
+        selected: this.$store.state.tab,
         tabs: [{
           id: "tab1",
           name: "看车",

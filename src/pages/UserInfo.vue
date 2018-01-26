@@ -31,6 +31,9 @@
       return {
         title: "个人信息"
       }
+    },
+    created () {
+      this.$store.state.tab = 'tab4'
     }
   }
 
