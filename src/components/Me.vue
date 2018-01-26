@@ -2,7 +2,7 @@
   <div id="me">
     <mt-header fixed :title="title" class="title"></mt-header>
     <div class="cell">
-      <mt-cell title="未设置昵称" label="看车号：542341" is-link to="/userInfo" class="user">
+      <mt-cell title="未设置昵称" label="看车号：542341" is-link to="/user-info" class="user">
         <img slot="icon" src="../assets/img-default-avatar.svg" class="avator">
         <img src="../assets/ico-qrcode.svg">
       </mt-cell>

@@ -37,7 +37,7 @@
           case '车商城':
             return '';
           case '试驾':
-            return '/trialCars';
+            return '/trial-cars';
           case '车头条':
             return '';
           case '活动':

@@ -14,11 +14,11 @@ export default new Router({
       name: 'Tabs',
       component: Tabs
     }, {
-      path: '/trialCars',
+      path: '/trial-cars',
       name: 'TrialCars',
       component: TrialCars
     }, {
-      path: '/userInfo',
+      path: '/user-info',
       name: 'UserInfo',
       component: UserInfo
     }, {
