@@ -24,7 +24,7 @@
 </template>
 
 <script>
-  import '../assets/styles/user-info.css'
+  import '../assets/styles/page/user-info.css'
   export default {
     name: "user-info",
     data() {

@@ -31,7 +31,7 @@
   </div>
 </template>
 <script>
-  import '../assets/styles/me-page.css'
+  import '../assets/styles/page/me-page.css'
 
   export default {
     name: 'me',
