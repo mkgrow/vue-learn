@@ -3,7 +3,6 @@
     <mt-header fixed :title="title">
       <router-link :to="{path: '/', meta: {tab: 'tab4'}}" slot="left">
         <mt-button icon="back">我</mt-button>
-        <!--<mt-button @click="handleClose">我</mt-button>-->
       </router-link>
     </mt-header>
     <div class="info">

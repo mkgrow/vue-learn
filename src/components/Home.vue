@@ -13,6 +13,7 @@
   </div>
 </template>
 <script>
+  import '../assets/styles/page/home-page.css'
   import {mapGetters, mapActions} from 'vuex'
   import moment from "moment"
   export default {

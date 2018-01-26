@@ -42,7 +42,8 @@
       ])
     },
     created() {
-      this.$store.dispatch('getTrialCars')
+      this.$store.dispatch('getTrialCars');
+      this.$store.state.tab = 'tab1'
     }
   }
 
@@ -50,5 +51,11 @@
 <style scoped>
   .trial-cars {
     background-color: #fff;
+  }
+
+  .item {
+    display: inline-flex;
+    margin-left: 12px;
+    border-bottom: .5px solid #e7e7e7;
   }
 </style>
