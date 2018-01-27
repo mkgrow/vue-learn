@@ -40,23 +40,23 @@
         tabs: [{
           id: "tab1",
           name: "看车",
-          default: require('../assets/mine-line.svg'),
-          img: require('../assets/mine-filled.svg')
+          default: require('../assets/img/mine-line.svg'),
+          img: require('../assets/img/mine-filled.svg')
         }, {
           id: "tab2",
           name: "车讯录",
-          default: require('../assets/mine-line.svg'),
-          img: require('../assets/mine-filled.svg')
+          default: require('../assets/img/mine-line.svg'),
+          img: require('../assets/img/mine-filled.svg')
         }, {
           id: "tab3",
           name: "发现",
-          default: require('../assets/mine-line.svg'),
-          img: require('../assets/mine-filled.svg')
+          default: require('../assets/img/mine-line.svg'),
+          img: require('../assets/img/mine-filled.svg')
         }, {
           id: "tab4",
           name: "我",
-          default: require('../assets/mine-line.svg'),
-          img: require('../assets/mine-filled.svg')
+          default: require('../assets/img/mine-line.svg'),
+          img: require('../assets/img/mine-filled.svg')
         }]
       }
     }

@@ -7,7 +7,7 @@
     </mt-header>
     <div class="info">
       <mt-cell title="头像" is-link>
-        <img src="../assets/img-default-avatar.svg" class="head-img">
+        <img src="../assets/img/img-default-avatar.svg" class="head-img">
       </mt-cell>
       <mt-cell title="昵称" is-link value="未设置昵称" class="item"></mt-cell>
       <mt-cell title="性别" is-link value="请选择性别"></mt-cell>
