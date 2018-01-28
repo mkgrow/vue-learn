@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="37px" height="36px" viewBox="0 0 37 36" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 43.1 (39012) - http://www.bohemiancoding.com/sketch -->
+    <title>试驾凭证</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <linearGradient x1="50%" y1="100%" x2="50%" y2="0%" id="linearGradient-1">
+            <stop stop-color="#FCCFA0" offset="0%"></stop>
+            <stop stop-color="#FCAD90" offset="100%"></stop>
+        </linearGradient>
+        <path d="M25,11 L26.5092049,11 C27.6086907,11 28.5,11.8933973 28.5,12.9918842 L28.5,24.0081158 C28.5,25.1082031 27.6017876,26 26.5092049,26 L10.4907951,26 C9.39130934,26 8.5,25.1066027 8.5,24.0081158 L8.5,12.9918842 C8.5,11.8917969 9.39821238,11 10.4907951,11 L12,11 L12,12.4971008 C12,13.325592 12.6715729,14 13.5,14 C14.3342028,14 15,13.3271291 15,12.4971008 L15,11 L22,11 L22,12.4971008 C22,13.325592 22.6715729,14 23.5,14 C24.3342028,14 25,13.3271291 25,12.4971008 L25,11 Z" id="path-2"></path>
+        <filter x="-30.0%" y="-40.0%" width="160.0%" height="180.0%" filterUnits="objectBoundingBox" id="filter-3">
+            <feOffset dx="0" dy="0" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="2" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feComposite in="shadowBlurOuter1" in2="SourceAlpha" operator="out" result="shadowBlurOuter1"></feComposite>
+            <feColorMatrix values="0 0 0 0 0.959343112   0 0 0 0 0.546433581   0 0 0 0 0.400085899  0 0 0 1 0" type="matrix" in="shadowBlurOuter1"></feColorMatrix>
+        </filter>
+    </defs>
+    <g id="试驾" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="09-试驾车详情" transform="translate(-169.000000, -773.000000)">
+            <g id="Car-Info" transform="translate(0.000000, 64.000000)">
+                <g id="试驾流程" transform="translate(0.000000, 645.000000)">
+                    <g id="试驾凭证" transform="translate(169.000000, 64.000000)">
+                        <circle id="Oval-3" fill="url(#linearGradient-1)" cx="18.5" cy="18" r="18"></circle>
+                        <g id="Combined-Shape">
+                            <use fill="black" fill-opacity="1" filter="url(#filter-3)" xlink:href="#path-2"></use>
+                            <use fill-opacity="0.899999976" fill="#FFFFFF" fill-rule="evenodd" xlink:href="#path-2"></use>
+                        </g>
+                        <rect id="Rectangle-8" fill-opacity="0.700000048" fill="#FFFFFF" x="12.5" y="9" width="2" height="4.5" rx="1"></rect>
+                        <rect id="Rectangle-8" fill-opacity="0.700000048" fill="#FFFFFF" x="22.5" y="9" width="2" height="4.5" rx="1"></rect>
+                        <path d="M14.1538462,18.5 L11.8461538,18.5 C11.6557692,18.5 11.5,18.275 11.5,18 L11.5,18 C11.5,17.725 11.6557692,17.5 11.8461538,17.5 L14.1538462,17.5 C14.3442308,17.5 14.5,17.725 14.5,18 L14.5,18 C14.5,18.275 14.3442308,18.5 14.1538462,18.5 L14.1538462,18.5 Z" id="Shape" fill="#F69D7C"></path>
+                        <path d="M14.1538462,22.5 L11.8461538,22.5 C11.6557692,22.5 11.5,22.275 11.5,22 L11.5,22 C11.5,21.725 11.6557692,21.5 11.8461538,21.5 L14.1538462,21.5 C14.3442308,21.5 14.5,21.725 14.5,22 L14.5,22 C14.5,22.275 14.3442308,22.5 14.1538462,22.5 L14.1538462,22.5 Z" id="Shape" fill="#F69D7C"></path>
+                        <path d="M19.6538462,18.5 L17.3461538,18.5 C17.1557692,18.5 17,18.275 17,18 L17,18 C17,17.725 17.1557692,17.5 17.3461538,17.5 L19.6538462,17.5 C19.8442308,17.5 20,17.725 20,18 L20,18 C20,18.275 19.8442308,18.5 19.6538462,18.5 L19.6538462,18.5 Z" id="Shape" fill="#F69D7C"></path>
+                        <path d="M19.6538462,22.5 L17.3461538,22.5 C17.1557692,22.5 17,22.275 17,22 L17,22 C17,21.725 17.1557692,21.5 17.3461538,21.5 L19.6538462,21.5 C19.8442308,21.5 20,21.725 20,22 L20,22 C20,22.275 19.8442308,22.5 19.6538462,22.5 L19.6538462,22.5 Z" id="Shape" fill="#F69D7C"></path>
+                        <path d="M25.1538462,18.5 L22.8461538,18.5 C22.6557692,18.5 22.5,18.275 22.5,18 L22.5,18 C22.5,17.725 22.6557692,17.5 22.8461538,17.5 L25.1538462,17.5 C25.3442308,17.5 25.5,17.725 25.5,18 L25.5,18 C25.5,18.275 25.3442308,18.5 25.1538462,18.5 L25.1538462,18.5 Z" id="Shape" fill="#F69D7C"></path>
+                        <path d="M25.1538462,22.5 L22.8461538,22.5 C22.6557692,22.5 22.5,22.275 22.5,22 L22.5,22 C22.5,21.725 22.6557692,21.5 22.8461538,21.5 L25.1538462,21.5 C25.3442308,21.5 25.5,21.725 25.5,22 L25.5,22 C25.5,22.275 25.3442308,22.5 25.1538462,22.5 L25.1538462,22.5 Z" id="Shape" fill="#F69D7C"></path>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

@@ -5,3 +5,7 @@ export const getSubscriptions = (state, payload) => {
 export const getTrialCars = (state, payload) => {
   state.trialCars = payload.trialCars
 }
+
+export const getTrialCar = (state, payload) => {
+  state.trialCar = payload.trialCar
+}

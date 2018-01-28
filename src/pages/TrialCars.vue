@@ -7,7 +7,7 @@
       <mt-button icon="more" slot="right"></mt-button>
     </mt-header>
     <div class="car-list">
-      <div class="item" v-for="trialCar in trialCars.data">
+      <div class="item" v-for="trialCar in trialCars.data" @click="pushToPage(trialCar)">
         <img class="car-img" :src="getImgUrl(trialCar.cover)">
         <div class="car-info">
           <div class="display-name">{{trialCar.displayName}}</div>
@@ -34,6 +34,9 @@
       ]),
       getImgUrl(key) {
         return 'http://qiniu-cdn.carhot.cn/' +key+'?imageView/2/w/176/h/132'
+      },
+      pushToPage(trialCar) {
+        this.$router.push("/trial-cars/"+trialCar.id);
       }
     },
     computed: {
@@ -56,6 +59,7 @@
   .item {
     display: inline-flex;
     margin-left: 12px;
+    text-decoration: none;
     border-bottom: .5px solid #e7e7e7;
   }
 </style>

@@ -4,6 +4,7 @@ import HelloWorld from '../components/HelloWorld'
 import Tabs from '../pages/Tabs'
 import UserInfo from '../pages/UserInfo'
 import TrialCars from '../pages/TrialCars'
+import TrialCarDetail from '../pages/TrailCarDetail'
 
 Vue.use(Router)
 
@@ -17,6 +18,11 @@ export default new Router({
       path: '/trial-cars',
       name: 'TrialCars',
       component: TrialCars
+    }, {
+      path: '/trial-cars/:id',
+      name: 'TrialCarDetail',
+      component: TrialCarDetail,
+      props: true
     }, {
       path: '/user-info',
       name: 'UserInfo',
