@@ -1,5 +1,5 @@
 <template>
-  <div>
+  <div class="trial-car-detail">
     <mt-header>
       <router-link to="/trial-cars" slot="left">
         <mt-button icon="back">试驾</mt-button>
@@ -75,7 +75,7 @@
 </template>
 
 <script>
-  import '../assets/styles/page/trial-car-detail-page.css'
+  import '../assets/styles/page/trial-car-detail-page.scss'
   import {MessageBox} from 'mint-ui';
   import {mapGetters, mapActions} from 'vuex';
 
@@ -101,134 +101,5 @@
 </script>
 
 <style scoped>
-  .trial-car {
-    padding: 0 12px;
-    background-color: #fff;
-  }
 
-  .img {
-    height: inherit;
-    width: 100%;
-  }
-
-  .car-name {
-    padding-top: 12px;
-    font-size: 17px;
-    color: #41454d;
-    text-align: center;
-  }
-
-  .car-subtitle {
-    padding: 6px 0 12px;
-    font-size: 12px;
-    color: #acb1b7;
-    text-align: center;
-  }
-
-  .rmb {
-    font-size: 16px;
-    color: #fc3333;
-  }
-
-  .car-price {
-    margin: 13px 0 6px;
-    font-size: 25px;
-    color: #fc3333;
-  }
-
-  .date {
-    padding: 8px 0 12px;
-  }
-
-  .gray-text {
-    font-size: 12px;
-    color: #acb1b7;
-  }
-
-  .margin-top {
-    margin-top: 8px;
-  }
-
-  .pick-up {
-    display: flex;
-  }
-
-  .address {
-    margin-left: 10px;
-    font-size: 13px;
-  }
-
-  .prompt {
-    padding: 10px 12px;
-    background-color: #f8fbfd;
-  }
-
-  .sale-info {
-    margin: 12px 0;
-    padding: 0 12px;
-    background-color: #fff;
-    border-top: 0.55px solid #e7e7e7;
-    border-bottom: 0.55px solid #e7e7e7;
-  }
-
-  .trial-car-dealer {
-    padding: 15px 0 6px;
-    font-size: 15px;
-    color: #41454d;
-  }
-
-  .little-icon {
-    margin-right: 6px;
-    width: 12px;
-    height: 12px;
-  }
-
-  .dealer-address {
-    padding: 6px 0 16px;
-  }
-
-  .line {
-    border-top: .55px solid #e7e7e7;
-    margin-left: 12px;
-  }
-
-  .trial-car-process {
-    padding: 16px 43px;
-    display: flex;
-    background-color: #fff;
-  }
-
-  .trial-car-process .step,
-  .trial-car-process .step-arrow {
-    position: relative;
-    display: inline-block;
-    flex: 1;
-    font-size: 12px;
-    text-align: center;
-  }
-
-  .trial-car-process .right-arrow {
-    width: 10px;
-    height: 10px;
-    background-image: url('../assets/img/step-arrow.svg');
-    background-repeat: no-repeat;
-    background-size: contain;
-  }
-
-  .trial-car-process .step-hint {
-    margin-top: 3px;
-    font-size: 11px;
-    color: #acb1b7;
-  }
-  .trial-car-process .v-center {
-    position: absolute;
-    top: 0;
-    right: 0;
-    bottom: 0;
-    left: 0;
-    margin: auto;
-  }
-  .car-data {
-    margin: 12px 0;
-  }
 </style>
