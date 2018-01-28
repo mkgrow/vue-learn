@@ -1,0 +1,41 @@
+.me-page {
+  margin-top: 12px;
+
+  .title {
+    height: 44px;
+    font-size: 18px;
+    color: #fff;
+    background-color: #333;
+  }
+
+  .user {
+    background-color: #fff;
+  }
+
+  .item {
+    margin: 12px 0;
+  }
+
+  .avator {
+    padding: 12px 2px;
+    width: 56px;
+    height: 56px;
+  }
+
+  .cell {
+    .mint-cell-text {
+      position: absolute;
+      top: 22px;
+      left: 75px;
+      margin-left: 4px;
+    }
+
+    .mint-cell-label {
+      position: absolute;
+      left: 76px;
+      top: 42px;
+      font-size: 14px;
+    }
+  }
+}
+

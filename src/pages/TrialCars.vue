@@ -20,7 +20,7 @@
 </template>
 <script>
   import {mapGetters, mapActions} from 'vuex'
-  import '../assets/styles/page/trial-cars-page.css'
+  import '../assets/styles/page/trial-cars-page.scss'
   export default {
     name: 'trialCars',
     data() {
@@ -52,14 +52,5 @@
 
 </script>
 <style scoped>
-  .trial-cars {
-    background-color: #fff;
-  }
 
-  .item {
-    display: inline-flex;
-    margin-left: 12px;
-    text-decoration: none;
-    border-bottom: .5px solid #e7e7e7;
-  }
 </style>

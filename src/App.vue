@@ -17,7 +17,7 @@
 </script>
 
 <!-- 样式：界面样式 -->
-<style>
+<style lang="scss">
   #app {
     height: 100%;
     font-family: 'Avenir', Helvetica, Arial, sans-serif;

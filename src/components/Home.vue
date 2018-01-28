@@ -13,7 +13,7 @@
   </div>
 </template>
 <script>
-  import '../assets/styles/page/home-page.css'
+  import '../assets/styles/page/home-page.scss'
   import {mapGetters, mapActions} from 'vuex'
   import moment from "moment"
   export default {
@@ -58,24 +58,5 @@
 </script>
 
 <style scoped>
-  .home-page {
-    margin-top: 12px;
-  }
 
-  .line {
-    border-top: .5px solid #e7e7e7;
-  }
-
-  .title {
-    height: 44px;
-    font-size: 18px;
-    color: #fff;
-    background-color: #333;
-  }
-
-  .avator {
-    padding: 12px 2px;
-    width: 56px;
-    height: 56px;
-  }
 </style>

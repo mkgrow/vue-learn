@@ -1,0 +1,48 @@
+.home-page {
+  margin-top: 12px;
+
+  .cell {
+
+    .mint-cell-value {
+      position: absolute;
+      top: 24px;
+      right: 12px;
+    }
+
+    .mint-cell-wrapper {
+      background-image: none;
+    }
+
+    .mint-cell-text {
+      position: absolute;
+      top: 22px;
+      left: 75px;
+      margin-left: 4px;
+    }
+
+    .mint-cell-label {
+      position: absolute;
+      left: 76px;
+      top: 42px;
+      font-size: 14px;
+    }
+  }
+
+  .line {
+    border-top: .5px solid #e7e7e7;
+  }
+
+  .title {
+    height: 44px;
+    font-size: 18px;
+    color: #fff;
+    background-color: #333;
+  }
+
+  .avator {
+    padding: 12px 2px;
+    width: 56px;
+    height: 56px;
+  }
+}
+

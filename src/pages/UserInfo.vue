@@ -23,7 +23,7 @@
 </template>
 
 <script>
-  import '../assets/styles/page/user-info.css'
+  import '../assets/styles/page/user-info.scss'
   export default {
     name: "user-info",
     data() {
@@ -39,25 +39,5 @@
 </script>
 
 <style scoped>
-  .user-info {
-    margin-top: 44px;
-  }
 
-  .head-img {
-    padding: 12px 2px;
-    width: 56px;
-    height: 56px;
-  }
-
-  .info {
-    padding-top: 12px;
-  }
-
-  .list {
-    margin: 12px 0;
-  }
-
-  .item {
-    font-size: 14px;
-  }
 </style>

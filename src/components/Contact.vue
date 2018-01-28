@@ -18,7 +18,7 @@
   </div>
 </template>
 <script>
-  import '../assets/styles/page/home-page.css'
+  import '../assets/styles/page/home-page.scss'
   export default {
     name: 'contact',
     data () {

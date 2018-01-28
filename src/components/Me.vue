@@ -1,5 +1,5 @@
 <template>
-  <div id="me">
+  <div class="me-page">
     <mt-header fixed :title="title" class="title"></mt-header>
     <div class="cell">
       <mt-cell title="未设置昵称" label="看车号：542341" is-link to="/user-info" class="user">
@@ -31,7 +31,7 @@
   </div>
 </template>
 <script>
-  import '../assets/styles/page/me-page.css'
+  import '../assets/styles/page/me-page.scss'
 
   export default {
     name: 'me',
@@ -44,28 +44,5 @@
 </script>
 
 <style scoped>
-  #me {
-    margin-top: 12px;
-  }
 
-  .title {
-    height: 44px;
-    font-size: 18px;
-    color: #fff;
-    background-color: #333;
-  }
-
-  .user {
-    background-color: #fff;
-  }
-
-  .item {
-   margin: 12px 0;
-  }
-
-  .avator {
-    padding: 12px 2px;
-    width: 56px;
-    height: 56px;
-  }
 </style>
