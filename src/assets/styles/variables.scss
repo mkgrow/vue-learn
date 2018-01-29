@@ -1,31 +1,29 @@
-$colors: (
-  primary:    #5bafff,
-  secondary:  #32db64,
-  danger:     #f64f4f,
-  light:      #f7f7f7,// component background
-  super-black: #000,
-  nav-bg: #404148,
-  dark:       #222,
-  bg-black:   #313335,
-  super-white:#fff,
-  lighten-white: #fafafa,
-  line:       #e7e7e7,
-  dark-line: #dddddd,
-  light-orange:       #ffae4f,
-  dark-orange: #FF9A40,
-  light-red:  #Fc5252,
-  warning-orange: #fff9df,
-
-  text-secondary-gray: #80858c,//text
-  text-lightness-gray: #acb1b7, //text
-  text-lighten-gray: #c6cdd5, //text
-  lightness-gray: #eeeeee, //background,border
-  text-lighten-blue: #8ec8ff,//text
-  text-lighten-red: #fc3333,
-  lighten-gray-background: #f4f4f4,//background
-  darken-blue: #4269d4,
-  review-text-bg: #fcfcfc,
-  dark-blue: #89A1BF,
-  lighten-blue: #C3D5EC,
-  bg-popover: #4C4E52
-);
+$default-black: #41454d;
+$primary: #5bafff;
+$secondary: #32db64;
+$danger: #f64f4f;
+$light: #f7f7f7; // component background
+$super-black: #000;
+$nav-bg: #404148;
+$dark: #222;
+$bg-black: #313335;
+$super-white: #fff;
+$lighten-white: #fafafa;
+$line: #e7e7e7;
+$dark-line: #dddddd;
+$light-orange: #ffae4f;
+$dark-orange: #FF9A40;
+$light-red: #Fc5252;
+$warning-orange: #fff9df;
+$text-secondary-gray: #80858c; //text
+$text-lightness-gray: #acb1b7; //text
+$text-lighten-gray: #c6cdd5; //text
+$lightness-gray: #eeeeee; //background;border
+$text-lighten-blue: #8ec8ff; //text
+$text-lighten-red: #fc3333;
+$lighten-gray-background: #f4f4f4; //background
+$darken-blue: #4269d4;
+$review-text-bg: #fcfcfc;
+$dark-blue: #89A1BF;
+$lighten-blue: #C3D5EC;
+$bg-popover: #4C4E52;

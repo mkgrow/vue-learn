@@ -1,7 +1,7 @@
 import reqwest from 'reqwest'
 
 // reqwest,一个封装了promise的异步请求插件
-// 需要cnpm install reqwest --save
+// 需要npm install reqwest --save
 
 export const getSubscriptions = ({ commit }) => {
   reqwest({
@@ -19,9 +19,9 @@ export const getSubscriptions = ({ commit }) => {
   })
 }
 
-export const getTrialCars = ({ commit }) => {
+export const getTrialCars = ({ commit }, { page }) => {
   reqwest({
-    url: `${process.env.API_ROOT}trial_cars.json`,
+    url: `${process.env.API_ROOT}trial_cars?format=json&page=${page}`,
     method: 'get',
     contentType: 'application/json',
     crossOrigin: true,

@@ -21,11 +21,13 @@
 <script>
   import {mapGetters, mapActions} from 'vuex'
   import '../assets/styles/page/trial-cars-page.scss'
+
   export default {
     name: 'trialCars',
     data() {
       return {
-        title: '试驾'
+        title: '试驾',
+        pageNum: 1
       }
     },
     methods: {
@@ -33,7 +35,7 @@
         'getTrialCars'
       ]),
       getImgUrl(key) {
-        return 'http://qiniu-cdn.carhot.cn/' +key+'?imageView/2/w/176/h/132'
+        return 'http://qiniu-cdn.carhot.cn/' + key + '?imageView/2/w/176/h/132'
       },
       pushToPage(trialCar) {
         this.$router.push("/trial-cars/"+trialCar.id);
@@ -45,7 +47,7 @@
       ])
     },
     created() {
-      this.$store.dispatch('getTrialCars');
+      this.$store.dispatch('getTrialCars', {page: this.pageNum});
       this.$store.state.tab = 'tab1'
     }
   }

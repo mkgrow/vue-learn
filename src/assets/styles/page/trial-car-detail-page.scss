@@ -1,3 +1,4 @@
+@import ".././variables";
 .trial-car-detail {
   .html-info {
     margin-bottom: 60px;
@@ -14,7 +15,7 @@
   .mint-cell {
     .mint-cell-text {
       font-size: 15px;
-      color: #41454d;
+      color: $default-black;
     }
 
     .mint-cell-value {
@@ -24,7 +25,7 @@
 
   .trial-car {
     padding: 0 12px;
-    background-color: #fff;
+    background-color: $super-white;
   }
 
   .img {
@@ -35,26 +36,26 @@
   .car-name {
     padding-top: 12px;
     font-size: 17px;
-    color: #41454d;
+    color: $default-black;
     text-align: center;
   }
 
   .car-subtitle {
     padding: 6px 0 12px;
     font-size: 12px;
-    color: #acb1b7;
+    color: $text-lightness-gray;
     text-align: center;
   }
 
   .rmb {
     font-size: 16px;
-    color: #fc3333;
+    color: $text-lighten-red;
   }
 
   .car-price {
     margin: 13px 0 6px;
     font-size: 25px;
-    color: #fc3333;
+    color: $text-lighten-red;
   }
 
   .date {
@@ -63,7 +64,7 @@
 
   .gray-text {
     font-size: 12px;
-    color: #acb1b7;
+    color: $text-lightness-gray;
   }
 
   .margin-top {
@@ -87,15 +88,15 @@
   .sale-info {
     margin: 12px 0;
     padding: 0 12px;
-    background-color: #fff;
-    border-top: 0.55px solid #e7e7e7;
-    border-bottom: 0.55px solid #e7e7e7;
+    background-color: $super-white;
+    border-top: 0.55px solid $line;
+    border-bottom: 0.55px solid $line;
   }
 
   .trial-car-dealer {
     padding: 15px 0 6px;
     font-size: 15px;
-    color: #41454d;
+    color: $default-black;
   }
 
   .little-icon {
@@ -109,15 +110,15 @@
   }
 
   .line {
-    border-top: .55px solid #e7e7e7;
+    border-top: .55px solid $line;
     margin-left: 12px;
   }
 
   .trial-car-process {
     padding: 16px 43px;
     display: flex;
-    background-color: #fff;
-    border-bottom: 0.55px solid #e7e7e7;
+    background-color: $super-white;
+    border-bottom: 0.55px solid $line;
 
     .step,
     .step-arrow {
@@ -139,7 +140,7 @@
     .step-hint {
       margin-top: 3px;
       font-size: 11px;
-      color: #acb1b7;
+      color: $text-lightness-gray;
     }
     .v-center {
       position: absolute;
