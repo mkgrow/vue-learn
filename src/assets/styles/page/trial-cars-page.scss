@@ -1,4 +1,5 @@
 .trial-cars {
+  margin-top: 56px;
   background-color: #fff;
 
   .item {
@@ -28,7 +29,6 @@
   }
 
   .car-info {
-    width: 100%;
     position: relative;
     margin: 12px 0 12px 12px;
   }
@@ -56,5 +56,21 @@
     margin-top: 8px;
     font-size: 11px;
     color: #acb1b7;
+  }
+
+  .bottom-area {
+    margin: 12px 0;
+    text-align: center;
+
+    .mint-spinner-fading-circle {
+      display: inline-block;
+    }
+
+    .no-more {
+      font-size: 12px;
+      text-align: center;
+      color: #acb1b7;
+      background-color: #fff;
+    }
   }
 }
