@@ -65,7 +65,5 @@
 
 <!-- 样式：界面样式 -->
 <style scoped>
-  .page-tabbar-container {
-    margin-top: 44px;
-  }
+
 </style>

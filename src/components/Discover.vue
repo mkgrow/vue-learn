@@ -1,5 +1,5 @@
 <template>
-  <div>
+  <div class="discover-page">
     <mt-header fixed :title="title" class="title"></mt-header>
     <div class="item">
       <mt-cell title="车友圈" is-link>

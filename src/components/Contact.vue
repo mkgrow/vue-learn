@@ -1,5 +1,5 @@
 <template>
-  <div>
+  <div class="contact-page">
     <mt-header fixed :title="title" class="title"></mt-header>
     <div class="item">
       <mt-cell title="我的收藏" is-link>
