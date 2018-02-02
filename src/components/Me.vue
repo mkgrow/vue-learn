@@ -2,7 +2,7 @@
   <div class="me-page">
     <mt-header fixed :title="title" class="title"></mt-header>
     <div class="cell">
-      <mt-cell title="未设置昵称" label="看车号：542341" is-link to="/user-info" class="user">
+      <mt-cell :title="nickName(consumer)" :label="owerNum(consumer)" is-link to="/user-info" class="user">
         <img slot="icon" src="../assets/img/img-default-avatar.svg" class="avator">
         <img src="../assets/img/ico-qrcode.svg">
       </mt-cell>
@@ -36,8 +36,20 @@
     name: 'me',
     data() {
       return {
-        title: '我'
+        title: '我',
+        consumer: {}
       }
+    },
+    methods: {
+      nickName(consumer) {
+        return consumer.nickName ? consumer.nickName : '未设置昵称'
+      },
+      owerNum(consumer) {
+        return `看车号：${consumer.carOwnerNumber}`
+      }
+    },
+    created() {
+      this.consumer = this.$store.state.consumer
     }
   }
 </script>

@@ -50,3 +50,18 @@ export const getTrialCar = ({ commit }, {id}) => {
     })
   })
 }
+
+export const codeLogin = ({ commit }, {phone, code}) => {
+  reqwest({
+    url: `${process.env.API_ROOT}consumer?phone=${phone}&code=${code}`,
+    type: 'json',
+    method: 'post',
+    contentType: 'application/json',
+    crossOrigin: true
+  }).then(consumer => {
+    commit({
+      type: 'getConsumer', // 这个type很重要，vue会自动去找mutations.js中名为getMsg的方法
+      consumer // 成功后把得到的数据通过commit传入mutations
+    })
+  })
+}

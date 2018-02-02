@@ -22,3 +22,7 @@ export const getTrialCars = (state, payload) => {
 export const getTrialCar = (state, payload) => {
   state.trialCar = payload.trialCar
 }
+
+export const getConsumer = (state, payload) => {
+  state.consumer = payload.consumer
+}

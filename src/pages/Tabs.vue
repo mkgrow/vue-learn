@@ -4,10 +4,18 @@
     <div class="page-wrap">
       <!-- tabcontainer -->
       <mt-tab-container class="page-tabbar-container" v-model="selected">
-        <mt-tab-container-item id="tab1"><home/></mt-tab-container-item>
-        <mt-tab-container-item id="tab2"><contact/></mt-tab-container-item>
-        <mt-tab-container-item id="tab3"><discover/></mt-tab-container-item>
-        <mt-tab-container-item id="tab4"><me/></mt-tab-container-item>
+        <mt-tab-container-item id="tab1">
+          <home/>
+        </mt-tab-container-item>
+        <mt-tab-container-item id="tab2">
+          <contact/>
+        </mt-tab-container-item>
+        <mt-tab-container-item id="tab3">
+          <discover/>
+        </mt-tab-container-item>
+        <mt-tab-container-item id="tab4">
+          <me/>
+        </mt-tab-container-item>
       </mt-tab-container>
     </div>
     <mt-tabbar v-model="selected" fixed>
@@ -25,7 +33,7 @@
   import Contact from '../components/Contact'
   import Discover from '../components/Discover'
   import Me from '../components/Me'
-  import { MessageBox } from 'mint-ui';
+  import {MessageBox} from 'mint-ui';
 
   export default {
     name: 'tabs',
@@ -64,15 +72,13 @@
     watch: {
       selected: function (val, oldVal) {
         // 这里就可以通过 val 的值变更来确定
-        this.icon=val;
-        this.$store.state.isLogin = true
-        if (val == 'tab4' && this.$store.state.isLogin) {
+        if (val == 'tab4' && !this.$store.state.isLogin) {
           this.$router.push({
             name: 'Login'
           })
         }
       }
-    },
+    }
   }
 </script>
 
