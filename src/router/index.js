@@ -5,6 +5,7 @@ import Tabs from '../pages/Tabs'
 import UserInfo from '../pages/UserInfo'
 import TrialCars from '../pages/TrialCars'
 import TrialCarDetail from '../pages/TrailCarDetail'
+import Login from '../pages/Login'
 
 Vue.use(Router)
 
@@ -14,6 +15,10 @@ export default new Router({
       path: '/',
       name: 'Tabs',
       component: Tabs
+    }, {
+      path: '/login',
+      name: 'Login',
+      component: Login
     }, {
       path: '/trial-cars',
       name: 'TrialCars',

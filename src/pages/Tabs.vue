@@ -25,6 +25,7 @@
   import Contact from '../components/Contact'
   import Discover from '../components/Discover'
   import Me from '../components/Me'
+  import { MessageBox } from 'mint-ui';
 
   export default {
     name: 'tabs',
@@ -59,7 +60,19 @@
           img: require('../assets/img/mine-filled.svg')
         }]
       }
-    }
+    },
+    watch: {
+      selected: function (val, oldVal) {
+        // 这里就可以通过 val 的值变更来确定
+        this.icon=val;
+        this.$store.state.isLogin = true
+        if (val == 'tab4' && this.$store.state.isLogin) {
+          this.$router.push({
+            name: 'Login'
+          })
+        }
+      }
+    },
   }
 </script>
 

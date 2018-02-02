@@ -32,7 +32,6 @@
 </template>
 <script>
   import '../assets/styles/page/me-page.scss'
-
   export default {
     name: 'me',
     data() {

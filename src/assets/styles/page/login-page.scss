@@ -1,0 +1,33 @@
+.login-page {
+  background-color: #fff;
+
+  .mint-button--default {
+    box-shadow: none;
+    background-color: #fff;
+  }
+
+  .send-code {
+    height: 25px;
+    color: #5bafff;
+    border-left: solid 1px #e7e7e7;
+    border-radius: 0;
+    font-size: 14px;
+  }
+
+  .prompt {
+    padding: 16px 0;
+    margin-left: 12px;
+    font-size: 13px;
+    color: #80858c;
+    border-top: .5px solid #e7e7e7;
+  }
+
+  .service {
+    color: #5bafff;
+  }
+
+  .login-btn {
+    margin: 0 12px;
+  }
+}
+

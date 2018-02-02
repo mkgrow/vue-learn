@@ -1,4 +1,5 @@
 const state = {
+  isLogin: false,
   subscriptions: '', // 初始值为空
   trialCars: '',
   loadMore: {
