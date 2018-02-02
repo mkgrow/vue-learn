@@ -6,6 +6,7 @@ import UserInfo from '../pages/UserInfo'
 import TrialCars from '../pages/TrialCars'
 import TrialCarDetail from '../pages/TrailCarDetail'
 import Login from '../pages/Login'
+import Setting from '../pages/Setting'
 
 Vue.use(Router)
 
@@ -19,6 +20,10 @@ export default new Router({
       path: '/login',
       name: 'Login',
       component: Login
+    }, {
+      path: '/setting',
+      name: 'Setting',
+      component: Setting
     }, {
       path: '/trial-cars',
       name: 'TrialCars',

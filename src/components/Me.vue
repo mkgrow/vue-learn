@@ -24,7 +24,7 @@
       </mt-cell>
     </div>
     <div class="item">
-      <mt-cell title="设置" is-link>
+      <mt-cell title="设置" to="/setting" is-link>
         <img slot="icon" src="../assets/img/me/ico-settings.svg">
       </mt-cell>
     </div>
