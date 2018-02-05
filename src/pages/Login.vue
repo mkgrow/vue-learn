@@ -50,6 +50,7 @@
     watch: {
       consumer: function (consumer) {
         if(consumer.authenticationToken) {
+          sessionStorage.setItem("consumer", JSON.stringify(consumer))
           this.$store.state.isLogin = true
           this.$router.push({
             name: 'Tabs'

@@ -72,11 +72,18 @@
     watch: {
       selected: function (val, oldVal) {
         // 这里就可以通过 val 的值变更来确定
-        if (val == 'tab4' && !this.$store.state.isLogin) {
+        var consumer = JSON.parse(sessionStorage.getItem("consumer"))
+        if (val == 'tab4' && !consumer) {
           this.$router.push({
             name: 'Login'
           })
         }
+      }
+    },
+    created() {
+      if (JSON.parse(sessionStorage.getItem("consumer"))) {
+        this.$store.state.isLogin = true
+        this.$store.state.consumer = JSON.parse(sessionStorage.getItem("consumer"))
       }
     }
   }
