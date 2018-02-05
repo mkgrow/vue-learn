@@ -45,7 +45,7 @@
         return consumer.nickName ? consumer.nickName : '未设置昵称'
       },
       owerNum(consumer) {
-        return `看车号：${consumer.carOwnerNumber}`
+        return `看车号：${consumer.carOwnerNumber ? consumer.carOwnerNumber : '000000'}`
       }
     },
     created() {
