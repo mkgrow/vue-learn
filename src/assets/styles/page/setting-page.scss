@@ -1,0 +1,24 @@
+.setting-page {
+  padding-top: 44px;
+
+  .item {
+    margin: 12px 0;
+  }
+
+  .btn {
+    height: 52px;
+    width: 100%;
+    border: 0.5px solid #e7e7e7;
+    border-right: 0;
+    border-left: 0;
+    font-size: 16px;
+    color: #5bafff;
+    background-color: #fff;
+    box-shadow: none;
+    border-radius: 0;
+  }
+
+  .mint-button::after {
+    background-color: #999;
+  }
+}

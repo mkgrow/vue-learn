@@ -19,9 +19,13 @@
       <mt-cell title="法律条款" is-link></mt-cell>
       <mt-cell title="关于我们" is-link></mt-cell>
     </div>
+    <div class="item">
+      <mt-button class="btn">退出登录</mt-button>
+    </div>
   </div>
 </template>
 <script>
+  import '../assets/styles/page/setting-page.scss'
   export default {
     name: 'me',
     data() {
@@ -29,6 +33,9 @@
         title: '设置',
         consumer: {}
       }
+    },
+    created() {
+      this.$store.state.tab = 'tab4'
     }
   }
 </script>
