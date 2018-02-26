@@ -5,22 +5,23 @@
         <mt-button icon="back">车头条</mt-button>
       </router-link>
     </mt-header>
-    <div class="title-height" v-if="article.title">
-      {{article.title}}
-    </div>
+    <mt-index-list>
+      <div class="title-height" v-if="article.title">
+        {{article.title}}
+      </div>
 
-    <div class="article-content" v-if="article.content">
-      <div class="article">
-        {{article.newsOwner.name}}
-        <span class="time">{{formatDate(article.createdAt)}}</span>
+      <div class="article-content" v-if="article.content">
+        <div class="article">
+          {{article.newsOwner.name}}
+          <span class="time">{{formatDate(article.createdAt)}}</span>
+        </div>
+        <div class="html-content large" v-html="article.content">
+        </div>
+        <div class="footer-read">
+          阅读：{{article.impressionsCount || 0}}
+        </div>
       </div>
-      <div class="html-content large" v-html="article.content">
-      </div>
-      <div class="footer-read">
-        阅读：{{article.impressionsCount || 0}}
-      </div>
-    </div>
-
+    </mt-index-list>
   </div>
 </template>
 
