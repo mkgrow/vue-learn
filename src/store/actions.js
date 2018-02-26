@@ -67,6 +67,22 @@ export const getArticles = ({ commit }, { page }) => {
   })
 }
 
+export const getArticle = ({ commit }, {id}) => {
+  console.log(id)
+  reqwest({
+    url: `${process.env.API_ROOT}articles/${id}.json`,
+    method: 'get',
+    contentType: 'application/json',
+    crossOrigin: true,
+    dataType: 'json'
+  }).then(article => {
+    commit({
+      type: 'getArticle', // 这个type很重要，vue会自动去找mutations.js中名为getMsg的方法
+      article // 成功后把得到的数据通过commit传入mutations
+    })
+  })
+}
+
 export const codeLogin = ({ commit }, {phone, code}) => {
   reqwest({
     url: `${process.env.API_ROOT}consumer?phone=${phone}&code=${code}`,

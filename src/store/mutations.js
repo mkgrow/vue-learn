@@ -43,3 +43,7 @@ export const getArticles = (state, payload) => {
     state.loadMore.loading = false
   }
 }
+
+export const getArticle = (state, payload) => {
+  state.article = payload.article
+}

@@ -5,6 +5,7 @@ import Tabs from '../pages/Tabs'
 import UserInfo from '../pages/UserInfo'
 import TrialCars from '../pages/TrialCars'
 import Articles from '../pages/Articles'
+import ArticleDetail from '../pages/ArticleDetail'
 import TrialCarDetail from '../pages/TrailCarDetail'
 import Login from '../pages/Login'
 import Setting from '../pages/Setting'
@@ -30,13 +31,18 @@ export default new Router({
       name: 'TrialCars',
       component: TrialCars
     }, {
+      path: '/trial-cars/:id',
+      name: 'TrialCarDetail',
+      component: TrialCarDetail,
+      props: true
+    }, {
       path: '/articles',
       name: 'Articles',
       component: Articles
     }, {
-      path: '/trial-cars/:id',
-      name: 'TrialCarDetail',
-      component: TrialCarDetail,
+      path: '/articles/:id',
+      name: 'ArticleDetail',
+      component: ArticleDetail,
       props: true
     }, {
       path: '/user-info',

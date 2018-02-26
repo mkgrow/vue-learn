@@ -14,6 +14,7 @@ const state = {
     loading: false
   },
   trialCar: '',
+  article: '',
   tab: 'tab1'
 }
 export default state
