@@ -27,7 +27,6 @@
 
 <script>
   import '../assets/styles/page/article-item-page.scss'
-  import {MessageBox} from 'mint-ui';
   import {mapGetters, mapActions} from 'vuex';
   import moment from "moment"
 
