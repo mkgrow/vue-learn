@@ -64,7 +64,7 @@
       },
       loadMore() {
         if (this.$store.state.loadMore.hasMore) {
-          this.$store.dispatch('getArticles', {page: this.$store.state.loadMore.pageNum});
+          this.$store.dispatch('getArticles', {page: this.$store.state.articles.pageNum});
         }
       }
     },
@@ -73,14 +73,14 @@
         'articles'
       ])
     },
-    created() {
-      this.loading = false
-      this.$store.state.tab = 'tab1'
-    },
-    destroyed() {
+    beforeCreate() {
       this.$store.state.loadMore.hasMore = true
       this.$store.state.loadMore.noMore = false
       this.$store.state.loadMore.loading = false
+    },
+    created() {
+      this.loading = false
+      this.$store.state.tab = 'tab1'
     }
   }
 

@@ -3,12 +3,12 @@ export const getSubscriptions = (state, payload) => {
 }
 
 export const getTrialCars = (state, payload) => {
-  let trialCars = {}
+  let trialCars = {pageNum: state.trialCars.pageNum}
   trialCars.count = payload.trialCars.count
   trialCars.links = payload.trialCars.links
   trialCars.data = (state.trialCars.data || []).concat(payload.trialCars.data)
   state.trialCars = trialCars
-  state.loadMore.pageNum++
+  state.trialCars.pageNum++
   if (payload.trialCars.links.next) {
     state.loadMore.hasMore = true
     state.loadMore.loading = true
@@ -28,12 +28,12 @@ export const getConsumer = (state, payload) => {
 }
 
 export const getArticles = (state, payload) => {
-  let articles = {}
+  let articles = {pageNum: state.articles.pageNum}
   articles.count = payload.articles.count
   articles.links = payload.articles.links
   articles.data = (state.articles.data || []).concat(payload.articles.data)
   state.articles = articles
-  state.loadMore.pageNum++
+  state.articles.pageNum++
   if (payload.articles.links.next) {
     state.loadMore.hasMore = true
     state.loadMore.loading = true

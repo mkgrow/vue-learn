@@ -46,7 +46,7 @@
       },
       loadMore() {
         if (this.$store.state.loadMore.hasMore) {
-          this.$store.dispatch('getTrialCars', {page: this.$store.state.loadMore.pageNum});
+          this.$store.dispatch('getTrialCars', {page: this.$store.state.trialCars.pageNum});
         }
       }
     },
@@ -54,6 +54,11 @@
       ...mapGetters([
         'trialCars'
       ])
+    },
+    beforeCreate() {
+      this.$store.state.loadMore.hasMore = true
+      this.$store.state.loadMore.noMore = false
+      this.$store.state.loadMore.loading = false
     },
     created() {
       this.loading = false

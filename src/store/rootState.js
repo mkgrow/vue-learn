@@ -2,10 +2,13 @@ const state = {
   consumer: {},
   isLogin: false,
   subscriptions: '', // 初始值为空
-  trialCars: '',
-  articles: '',
+  trialCars: {
+    pageNum: 1
+  },
+  articles: {
+    pageNum: 1
+  },
   loadMore: {
-    pageNum: 1,
     hasMore: true,
     noMore: false,
     loading: false
