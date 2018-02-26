@@ -40,7 +40,7 @@
           case '试驾':
             return '/trial-cars';
           case '车头条':
-            return '';
+            return '/articles';
           case '活动':
             return '';
         }

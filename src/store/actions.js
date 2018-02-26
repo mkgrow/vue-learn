@@ -51,6 +51,23 @@ export const getTrialCar = ({ commit }, {id}) => {
   })
 }
 
+export const getArticles = ({ commit }, { page }) => {
+  reqwest({
+    url: `${process.env.API_ROOT}articles?&format=json&page=${page}`,
+    method: 'get',
+    contentType: 'application/json',
+    crossOrigin: true,
+    data: 'q[news_owner_id_eq]=1',
+    dataType: 'json'
+  }).then(articles => {
+    console.log(articles)
+    commit({
+      type: 'getArticles', // 这个type很重要，vue会自动去找mutations.js中名为getMsg的方法
+      articles // 成功后把得到的数据通过commit传入mutations
+    })
+  })
+}
+
 export const codeLogin = ({ commit }, {phone, code}) => {
   reqwest({
     url: `${process.env.API_ROOT}consumer?phone=${phone}&code=${code}`,

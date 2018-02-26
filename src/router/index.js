@@ -4,6 +4,7 @@ import HelloWorld from '../components/HelloWorld'
 import Tabs from '../pages/Tabs'
 import UserInfo from '../pages/UserInfo'
 import TrialCars from '../pages/TrialCars'
+import Articles from '../pages/Articles'
 import TrialCarDetail from '../pages/TrailCarDetail'
 import Login from '../pages/Login'
 import Setting from '../pages/Setting'
@@ -28,6 +29,10 @@ export default new Router({
       path: '/trial-cars',
       name: 'TrialCars',
       component: TrialCars
+    }, {
+      path: '/articles',
+      name: 'Articles',
+      component: Articles
     }, {
       path: '/trial-cars/:id',
       name: 'TrialCarDetail',
