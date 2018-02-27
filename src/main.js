@@ -6,9 +6,11 @@ import router from './router'
 import store from './store'
 import MintUI from 'mint-ui'
 import './assets/styles/index.scss'
+import SearchBar from './components/SearchBar'
 
 Vue.config.productionTip = false
 Vue.use(MintUI)
+Vue.component('search-bar', SearchBar)
 
 /* eslint-disable no-new */
 new Vue({

@@ -3,6 +3,7 @@
     <mt-header fixed :title="title" class="title">
       <mt-button icon="more" slot="right"></mt-button>
     </mt-header>
+    <search-bar/>
     <div class="line"></div>
     <div class="cell" v-for="subscription in subscriptions.data">
       <mt-cell :title="subscription.name" :label="subscription.latestMsg" :to="getLink(subscription.name)">

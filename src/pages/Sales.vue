@@ -6,6 +6,7 @@
       </router-link>
       <mt-button icon="more" slot="right"></mt-button>
     </mt-header>
+    <search-bar/>
     <div v-infinite-scroll="loadMore" infinite-scroll-disabled="loading" infinite-scroll-distance="25" class="car-list">
       <div class="item" v-for="sale in sales.data" @click="pushToPage(sale)">
         <img class="car-img" :src="getImgUrl(sale.mainPhoto)">
