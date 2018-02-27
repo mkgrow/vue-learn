@@ -7,10 +7,12 @@ import store from './store'
 import MintUI from 'mint-ui'
 import './assets/styles/index.scss'
 import SearchBar from './components/SearchBar'
+import CountDown from './components/CountDown'
 
 Vue.config.productionTip = false
 Vue.use(MintUI)
 Vue.component('search-bar', SearchBar)
+Vue.component('count-down', CountDown)
 
 /* eslint-disable no-new */
 new Vue({

@@ -22,8 +22,10 @@
             <span class="coupon-item car-coin">{{sale.carCoin}}车币</span>
           </span>
         </div>
-        <div class="gray-text">裸车优惠金额:{{sale.discountPriceRange}}万元</div>
-        <div class="gray-text count-down">优惠倒计时:</div>
+        <div class="gray-text">裸车优惠金额：{{sale.discountPriceRange}}万元</div>
+        <div class="gray-text count-down">优惠倒计时:
+          <count-down :endTime="sale.expiredAt" endText="0"></count-down>
+        </div>
       </div>
       <mt-cell class="service" title="选择车型" label="请选择具体车型" is-link></mt-cell>
       <mt-cell class="service" title="金融服务" label="请选择金融服务" is-link></mt-cell>
