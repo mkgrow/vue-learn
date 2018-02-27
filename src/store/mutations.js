@@ -64,3 +64,7 @@ export const getSales = (state, payload) => {
     state.loadMore.loading = false
   }
 }
+
+export const getSale = (state, payload) => {
+  state.sale = payload.sale
+}

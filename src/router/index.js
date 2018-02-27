@@ -6,6 +6,7 @@ import UserInfo from '../pages/UserInfo'
 import TrialCars from '../pages/TrialCars'
 import TrialCarDetail from '../pages/TrailCarDetail'
 import Sales from '../pages/Sales'
+import SaleDetail from '../pages/SaleDetail'
 import Articles from '../pages/Articles'
 import ArticleDetail from '../pages/ArticleDetail'
 import Login from '../pages/Login'
@@ -57,6 +58,11 @@ export default new Router({
       path: '/sales',
       name: 'Sales',
       component: Sales
+    }, {
+      path: '/sales/:id',
+      name: 'saleDetail',
+      component: SaleDetail,
+      props: true
     }
   ],
   mode: 'history'

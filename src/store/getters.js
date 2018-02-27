@@ -5,3 +5,4 @@ export const consumer = state => state.consumer
 export const articles = state => state.articles
 export const article = state => state.article
 export const sales = state => state.sales
+export const sale = state => state.sale

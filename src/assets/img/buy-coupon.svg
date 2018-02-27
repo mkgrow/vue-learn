@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="10px" height="10px" viewBox="0 0 10 10" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 39 (31667) - http://www.bohemiancoding.com/sketch -->
+    <title>fire</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <rect id="path-1" x="0.559997559" y="0.559997559" width="8.86999989" height="8.86999989" rx="4.43499994"></rect>
+        <mask id="mask-2" maskContentUnits="userSpaceOnUse" maskUnits="objectBoundingBox" x="-0.5" y="-0.5" width="9.86999989" height="9.86999989">
+            <rect x="0.0599975586" y="0.0599975586" width="9.86999989" height="9.86999989" fill="white"></rect>
+            <use xlink:href="#path-1" fill="black"></use>
+        </mask>
+    </defs>
+    <g id="试驾" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="09-试驾车详情" transform="translate(-81.000000, -428.000000)">
+            <g id="Car-Info" transform="translate(0.000000, 64.000000)">
+                <g id="purchase">
+                    <g id="优惠" transform="translate(80.000000, 362.000000)">
+                        <g id="购车券">
+                            <g id="购车券-style" transform="translate(0.000000, 1.000000)">
+                                <g id="fire" transform="translate(1.000000, 1.000000)">
+                                    <g id="Rectangle-5">
+                                        <use fill="#FC5252" fill-rule="evenodd" xlink:href="#path-1"></use>
+                                        <use stroke="#FC5252" mask="url(#mask-2)" stroke-width="1" xlink:href="#path-1"></use>
+                                    </g>
+                                    <path d="M4.30284418,8.10273888 C4.30284418,8.10273888 2.83209229,7.84024689 2.83209229,6.13404893 C2.83209229,4.42785096 3.9811172,4.55909696 3.9811172,3.15913966 C3.9811172,3.15913966 4.57861016,3.85911831 4.30284418,4.5153483 C4.30284418,4.5153483 5.13014212,3.99036431 5.13014212,1.84667969 C5.13014212,1.84667969 9.58835879,6.26529492 5.54379108,8.14648755 C5.54379108,8.14648755 5.81955706,7.49025756 5.72763507,7.09651957 C5.63571308,6.70278158 5.03822012,6.52778692 4.90033713,6.09030026 C4.76245414,5.6528136 5.03822012,5.17157828 5.26802511,4.99658362 C5.3139861,4.95283495 2.83209229,5.69656227 4.30284418,8.10273888 L4.30284418,8.10273888 Z" id="Shape" fill="#FFFFFF"></path>
+                                </g>
+                            </g>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

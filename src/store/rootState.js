@@ -17,6 +17,7 @@ const state = {
     loading: false
   },
   trialCar: '',
+  sale: '',
   article: '',
   tab: 'tab1'
 }

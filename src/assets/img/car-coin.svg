@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="10px" height="10px" viewBox="0 0 10 10" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 39 (31667) - http://www.bohemiancoding.com/sketch -->
+    <title>coin</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <circle id="path-1" cx="5" cy="5" r="4.43334961"></circle>
+        <mask id="mask-2" maskContentUnits="userSpaceOnUse" maskUnits="objectBoundingBox" x="-0.5" y="-0.5" width="9.86669922" height="9.86669922">
+            <rect x="0.0666503906" y="0.0666503906" width="9.86669922" height="9.86669922" fill="white"></rect>
+            <use xlink:href="#path-1" fill="black"></use>
+        </mask>
+    </defs>
+    <g id="试驾" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" opacity="0.98999995">
+        <g id="09-试驾车详情" transform="translate(-167.000000, -428.000000)">
+            <g id="Car-Info" transform="translate(0.000000, 64.000000)">
+                <g id="purchase">
+                    <g id="优惠" transform="translate(80.000000, 362.000000)">
+                        <g id="车币" transform="translate(86.000000, 0.000000)">
+                            <g id="车币-style" transform="translate(0.000000, 1.000000)">
+                                <g id="coin" transform="translate(1.000000, 1.000000)">
+                                    <g id="Oval-2">
+                                        <use fill="#FF9A40" fill-rule="evenodd" xlink:href="#path-1"></use>
+                                        <use stroke="#FF9A40" mask="url(#mask-2)" stroke-width="1" xlink:href="#path-1"></use>
+                                    </g>
+                                    <path d="M4.72044048,2.99966746 C4.87483694,2.84527101 5.1225769,2.84268485 5.27955952,2.99966746 L7.00033254,4.72044048 C7.15472899,4.87483694 7.15731515,5.1225769 7.00033254,5.27955952 L5.27955952,7.00033254 C5.12516306,7.15472899 4.8774231,7.15731515 4.72044048,7.00033254 L2.99966746,5.27955952 C2.84527101,5.12516306 2.84268485,4.8774231 2.99966746,4.72044048 L4.72044048,2.99966746" id="Rectangle-7" stroke="#FFFFFF" stroke-width="0.5" fill="#FFFFFF"></path>
+                                </g>
+                            </g>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>
