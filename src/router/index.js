@@ -4,9 +4,10 @@ import HelloWorld from '../components/HelloWorld'
 import Tabs from '../pages/Tabs'
 import UserInfo from '../pages/UserInfo'
 import TrialCars from '../pages/TrialCars'
+import TrialCarDetail from '../pages/TrailCarDetail'
+import Sales from '../pages/Sales'
 import Articles from '../pages/Articles'
 import ArticleDetail from '../pages/ArticleDetail'
-import TrialCarDetail from '../pages/TrailCarDetail'
 import Login from '../pages/Login'
 import Setting from '../pages/Setting'
 
@@ -52,6 +53,10 @@ export default new Router({
       path: '/',
       name: 'HelloWorld',
       component: HelloWorld
+    }, {
+      path: '/sales',
+      name: 'Sales',
+      component: Sales
     }
   ],
   mode: 'history'

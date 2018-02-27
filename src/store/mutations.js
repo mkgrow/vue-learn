@@ -47,3 +47,20 @@ export const getArticles = (state, payload) => {
 export const getArticle = (state, payload) => {
   state.article = payload.article
 }
+
+export const getSales = (state, payload) => {
+  let sales = {pageNum: state.sales.pageNum}
+  sales.count = payload.sales.count
+  sales.links = payload.sales.links
+  sales.data = (state.sales.data || []).concat(payload.sales.data)
+  state.sales = sales
+  state.sales.pageNum++
+  if (payload.sales.links.next) {
+    state.loadMore.hasMore = true
+    state.loadMore.loading = true
+  } else {
+    state.loadMore.hasMore = false
+    state.loadMore.noMore = true
+    state.loadMore.loading = false
+  }
+}

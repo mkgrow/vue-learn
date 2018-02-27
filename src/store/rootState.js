@@ -5,6 +5,9 @@ const state = {
   trialCars: {
     pageNum: 1
   },
+  sales: {
+    pageNum: 1
+  },
   articles: {
     pageNum: 1
   },
