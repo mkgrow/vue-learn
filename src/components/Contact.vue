@@ -16,8 +16,7 @@
     </div>
   </div>
   </div>
-</template>
-
+</template>\
 <script>
   import '../assets/styles/page/home-page.scss'
   export default {
