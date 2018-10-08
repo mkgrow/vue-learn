@@ -5,6 +5,8 @@ import Tabs from '../pages/Tabs'
 import UserInfo from '../pages/UserInfo'
 import TrialCars from '../pages/TrialCars'
 import TrialCarDetail from '../pages/TrailCarDetail'
+import TrailCarOrder from '../pages/TrailCarOrder'
+import SelectAddress from '../pages/SelectAddress'
 import Sales from '../pages/Sales'
 import SaleDetail from '../pages/SaleDetail'
 import Articles from '../pages/Articles'
@@ -37,6 +39,14 @@ export default new Router({
       name: 'TrialCarDetail',
       component: TrialCarDetail,
       props: true
+    }, {
+      path: '/trial-car-order/:id',
+      name: 'TrailCarOrder',
+      component: TrailCarOrder
+    }, {
+      path: '/select-address/:id',
+      name: 'SelectAddress',
+      component: SelectAddress
     }, {
       path: '/articles',
       name: 'Articles',

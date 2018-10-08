@@ -67,7 +67,7 @@
         <div v-html="trialCar.htmlSafe" class="html-info"></div>
       </div>
       <div class="btn-area">
-        <mt-button type="primary" size="large" class="bottom-btn">接车试驾</mt-button>
+        <mt-button type="primary" size="large" class="bottom-btn" @click="pushToPage(trialCar)">接车试驾</mt-button>
       </div>
     </mt-index-list>
 
@@ -87,7 +87,10 @@
     methods: {
       ...mapActions([
         'getTrialCar'
-      ])
+      ]),
+      pushToPage(trialCar) {
+        this.$router.push("/trial-car-order/" + trialCar.id);
+      },
     },
     computed: {
       ...mapGetters([
